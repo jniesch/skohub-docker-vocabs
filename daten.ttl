@@ -1,0 +1,21 @@
+@prefix data: <https://example.org/data/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+color: a skos:ConceptScheme ;
+    dct:title "data"@en, "Daten"@de ;
+    dct:creator "John Doe"@de ;
+    dct:created "2021-11-02"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept data:d0001, data:d0002 .
+
+data:d0001 a skos:Concept ;
+    skos:prefLabel "Primärdaten"@de, "primary data"@en ;
+    skos:altLabel "Forschungsdaten"@de, "research data"@en ;
+    skos:topConceptOf data: .
+
+data:d0002 a skos:Concept ;
+    skos:prefLabel "Metadaten"@de, "meta data"@en ;
+    skos:altLabel  "Annotation"@de, "annotation"@en ;
+    skos:topConceptOf data: .
