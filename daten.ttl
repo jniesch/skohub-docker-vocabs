@@ -3,7 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-color: a skos:ConceptScheme ;
+data: a skos:ConceptScheme ;
     dct:title "data"@en, "Daten"@de ;
     dct:creator "John Doe"@de ;
     dct:created "2021-11-02"^^xsd:date ;
