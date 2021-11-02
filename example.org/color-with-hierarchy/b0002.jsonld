@@ -17,11 +17,7 @@
     }
   ],
   "inScheme": {
-    "id": "https://example.org/color-with-hierarchy/",
-    "title": {
-      "en": "Colors with hierarchy",
-      "de": "Farben mit Hierarchie"
-    }
+    "id": "https://example.org/color-with-hierarchy/"
   },
   "topConceptOf": {
     "id": "https://example.org/color-with-hierarchy/"
